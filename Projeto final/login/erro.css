@@ -1,0 +1,36 @@
+.erroBox {
+    color: white;
+    background-color: rgba(220, 20, 60, 0.85);
+    border: 2px solid crimson;
+    border-radius: 12px;
+    padding: 24px 20px 18px 20px;
+    width: 350px;
+    margin: 120px auto 0 auto;
+    text-align: center;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+.erroMsg {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 18px;
+    display: block;
+}
+
+.erroBtn {
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s;
+}
+
+.erroBtn:hover {
+    background-color: deepskyblue;
+}
